@@ -29,12 +29,12 @@
       </div>
     </section>
     <section
-      class="mt-16 text-white transition-all duration-300 ease-out"
+      class="mt-16 text-white transition-all duration-300 ease-out max-w-lg"
       :class="scrolledDown ? 'opacity-0 ' : 'opacity-100'"
       id="AboutMe"
     >
       <div class="font-bold pt-16 text-zinc-400">About Me</div>
-      <div class="mt-12 text-base leading-relaxed">
+      <div class="mt-12 text-base leading-relaxed text-justify">
         Currently finishing up my studies at Grand Valley State University. I
         worked on a web application for the first time during my senior capstone
         and knew almost instantly it was the direction I wanted to head in.
