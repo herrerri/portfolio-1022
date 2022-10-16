@@ -2,7 +2,7 @@
   <div class="max-w-3xl flex items-start flex-col font-sans px-8 antialiased">
     <section class="relative">
       <Blobs />
-      <div class="relative text-white font-bold text-5xl leading-tight">
+      <div class="relative text-white font-bold text-6xl leading-tight">
         Hi, I'm Ricardo.
       </div>
       <div class="relative">
@@ -29,7 +29,7 @@
       </div>
     </section>
     <section
-      class="mt-16 text-white transition-all duration-300 ease-out max-w-lg"
+      class="mt-16 text-white transition-all duration-300 ease-out max-w-2xl"
       :class="scrolledDown ? 'opacity-0 ' : 'opacity-100'"
       id="AboutMe"
     >
