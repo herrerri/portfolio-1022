@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl flex items-start flex-col font-sans px-10 antialiased">
+  <div class="max-w-3xl flex items-start flex-col font-sans px-8 antialiased">
     <section class="relative">
       <Blobs />
       <div class="relative text-white font-bold text-5xl leading-tight">
@@ -11,7 +11,7 @@
             class="bg-rose-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
             href="#AboutMe"
           >
-            About Me
+            About
           </a>
           <a
             class="bg-orange-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
