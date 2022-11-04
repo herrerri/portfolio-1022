@@ -2,24 +2,24 @@
   <div class="max-w-3xl flex items-start flex-col font-sans px-8 antialiased">
     <section class="relative">
       <Blobs />
-      <div class="relative text-white font-bold text-6xl leading-tight">
+      <div class="relative text-white font-bold text-5xl leading-tight">
         Hi, I'm
         <span class="">Ricardo.</span>
       </div>
       <div class="relative">
         <div class="mt-4 flex gap-2">
           <a
-            class="bg-rose-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
+            class="bg-rose-100 hover:bg-stone-100 transition py-2 px-2 rounded-md font-semibold"
             href="#AboutMe">
             About
           </a>
           <a
-            class="bg-orange-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
+            class="bg-orange-100 hover:bg-stone-100 transition py-2 px-2 rounded-md font-semibold"
             href="#Projects">
             Projects
           </a>
           <a
-            class="bg-green-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
+            class="bg-green-100 hover:bg-stone-100 transition py-2 px-2 rounded-md font-semibold"
             href="#Contact">
             Contact
           </a>
@@ -93,7 +93,7 @@ export default {
           { name: 'Demo', link: 'https://fgo-planner.netlify.app/' },
           { name: 'Code', link: 'https://github.com/herrerri/fgo-planner' },
         ],
-        images: ['/images/01anim.gif', '/images/01.png'],
+        images: ['/images/01anim.webm', '/images/01.webp'],
       },
       {
         name: 'Pokemon Dashboard',
@@ -105,7 +105,7 @@ export default {
             link: 'https://github.com/herrerri/pokemon-dashboard',
           },
         ],
-        images: ['/images/02anim.gif', '/images/02.png'],
+        images: ['/images/02anim.webm', '/images/02.webp'],
       },
       {
         name: 'Portfolio Website',
@@ -113,7 +113,7 @@ export default {
         links: [
           { name: 'Code', link: 'https://github.com/herrerri/portfolio-1022' },
         ],
-        images: ['/images/03anim.gif', '/images/03.png'],
+        images: ['/images/03anim.webm', '/images/03.webp'],
       },
     ],
   }),
