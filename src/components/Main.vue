@@ -3,26 +3,24 @@
     <section class="relative">
       <Blobs />
       <div class="relative text-white font-bold text-6xl leading-tight">
-        Hi, I'm Ricardo.
+        Hi, I'm
+        <span class="">Ricardo.</span>
       </div>
       <div class="relative">
         <div class="mt-4 flex gap-2">
           <a
             class="bg-rose-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
-            href="#AboutMe"
-          >
+            href="#AboutMe">
             About
           </a>
           <a
             class="bg-orange-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
-            href="#Projects"
-          >
+            href="#Projects">
             Projects
           </a>
           <a
             class="bg-green-100 hover:bg-stone-100 py-2 px-4 rounded-md font-semibold"
-            href="#Contact"
-          >
+            href="#Contact">
             Contact
           </a>
         </div>
@@ -31,20 +29,26 @@
     <section
       class="mt-16 text-white transition-all duration-300 ease-out max-w-2xl"
       :class="scrolledDown ? 'opacity-0 ' : 'opacity-100'"
-      id="AboutMe"
-    >
+      id="AboutMe">
       <div class="font-bold pt-16 text-zinc-400">About Me</div>
-      <div class="mt-12 text-base leading-relaxed text-justify">
-        Currently finishing up my studies at Grand Valley State University. I
-        worked on a web application for the first time during my senior capstone
-        and knew almost instantly it was the direction I wanted to head in.
-      </div>
+      <p class="mt-12 text-base leading-relaxed text-justify">
+        Currently finishing up my computer science degree at Grand Valley State
+        University. I've been creating things on computers since 2011 when I was
+        13 posting my digital art on graphic design forums. Recently, I worked
+        on the frontend for a web app for the first time during my senior
+        capstone and knew almost instantly it was the path I wanted to take my
+        talents in.
+      </p>
+      <p class="mt-4">
+        Outside of school and coding, I work part-time at a warehouse, play a
+        variety of video games casually, and enter weekly Super Smash Bros.
+        Melee tournaments!
+      </p>
     </section>
     <section
       class="mt-16 text-white transition-all duration-300 ease-out min-w-full"
       :class="scrolledDown ? 'opacity-0 ' : 'opacity-100 '"
-      id="Projects"
-    >
+      id="Projects">
       <div class="font-bold pt-16 text-zinc-400" id="Projects">Projects</div>
       <div class="mt-12 text-base leading-relaxed">
         <Card :project="projects[0]" />
@@ -55,8 +59,7 @@
     <section
       class="mt-16 mb-[70vh] text-white transition-all duration-300 ease-out"
       :class="scrolledDown ? 'opacity-0 ' : 'opacity-100 '"
-      id="Contact"
-    >
+      id="Contact">
       <div class="font-bold pt-16 text-zinc-400">Contact</div>
       <div class="mt-12 text-base leading-relaxed pb-36">
         <a href="https://github.com/herrerri" target="_blank" class="underline"
@@ -67,8 +70,7 @@
         <br />
         <a
           class="font-semibold underline"
-          href="mailto:98rherrerasantos@gmail.com"
-        >
+          href="mailto:98rherrerasantos@gmail.com">
           Send Email
         </a>
       </div>
